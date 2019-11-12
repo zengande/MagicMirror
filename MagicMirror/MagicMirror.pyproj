@@ -41,11 +41,8 @@
     <Folder Include="MagicMirror\html\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MagicMirror\static\scripts\app.js" />
+    <None Include="FolderProfile.pubxml" />
     <Content Include="requirements.txt" />
-    <Content Include="MagicMirror\static\content\bootstrap.css" />
-    <Content Include="MagicMirror\static\content\bootstrap.min.css" />
-    <Content Include="MagicMirror\static\content\site.css" />
     <Content Include="MagicMirror\static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="MagicMirror\static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="MagicMirror\static\fonts\glyphicons-halflings-regular.ttf" />
