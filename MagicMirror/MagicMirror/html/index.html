@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div id="app"></div>
+
+    <!-- 注意: 部署时，将 "development.js" 替换为 "production.min.js"。-->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <script type="text/babel" src="../static/scripts/app.jsx"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        window.onready = function () {
+            namespace = "/wechat"
+            var socket = io.connect('http://' + document.domain + ':' + location.port + namespace);
+            console.log(socket);
+
+            socket.emit('connect')
+
+            socket.on('response', function (data) {
+                console.log(data)
+            });
+        }
+    </script>
+</body>
+</html>
