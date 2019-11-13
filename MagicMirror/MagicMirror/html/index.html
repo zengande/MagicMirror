@@ -14,8 +14,8 @@
 <body>
 
     <div id="app">
-        <!--温度：{{temperature}}℃ <br />
-        湿度：{{humidity}}%-->
+        温度：{{temperature}}℃ <br />
+        湿度：{{humidity}}%
         
     </div>
 
@@ -27,20 +27,18 @@
         var app = new Vue({
             el: '#app',
             data: {
-                temperature: 0,
-                humidity: 0
+                temperature: "N/A",
+                humidity: "N/A"
             },
             created: function() {
                 const that = this;
                 const namespace = "/monitor";
                 var socket = io.connect('http://' + document.domain + ':' + location.port + namespace);
 
-                socket.emit('connect');
-
                 socket.on('response_ht', (data) => {
-                    const { temperature, humidity } = data || {};
-                    that.temperature = temperature;
-                    that.humidity = humidity;
+                    const { temperature, humidity } = data;
+                    that.temperature = temperature || "N/A";
+                    that.humidity = humidity || "N/A";
                 });
             }
         });
