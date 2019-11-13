@@ -8,13 +8,13 @@ from threading import Lock
 from flask import Flask
 from flask_socketio import SocketIO
 from MagicMirror import app,socketio
-import Adafruit_DHT
+#import Adafruit_DHT
 
 thread = None
 thread_lock = Lock()
 
-sensor = Adafruit_DHT.DHT11
-pin = 4
+#sensor = Adafruit_DHT.DHT11
+#pin = 4
 
 @app.route('/')
 @app.route('/home')
@@ -32,7 +32,7 @@ def connect():
 
 def read_ht_thread():
     while True:
-        humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+        humidity, temperature =(0,0) # Adafruit_DHT.read_retry(sensor, pin)
         socketio.emit('response_ht',
                       {'humidity': humidity, 'temperature': temperature},
                       namespace='/monitor')

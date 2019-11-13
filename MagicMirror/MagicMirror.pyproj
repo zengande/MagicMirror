@@ -18,6 +18,7 @@
     <Name>MagicMirror</Name>
     <RootNamespace>MagicMirror</RootNamespace>
     <Environment>Environment=Development</Environment>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="FolderProfile.pubxml" />
+    <Content Include="MagicMirror\static\fonts\ShareTechMono-Regular.ttf" />
     <Content Include="requirements.txt" />
     <Content Include="MagicMirror\static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="MagicMirror\static\fonts\glyphicons-halflings-regular.svg" />
