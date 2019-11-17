@@ -1,0 +1,52 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="../css/weather-icons.css" rel="stylesheet" />
+    <link href="../css/app.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="app" class="container">
+        <div class="left">
+            <div class="clock">
+                <div class="time">
+                    <span class="hours">{{hours}}</span>
+                    <span class="divider">:</span>
+                    <span class="minutes">{{minutes}}</span>
+                    <span class="seconds">{{seconds}}</span>
+                </div>
+                <div class="date">
+                    <span>{{date}}</span>
+                    <span>{{lunarDate}}</span>
+                </div>
+            </div>
+            <div class="weather">
+                <div class="temp">
+                    <div>
+                        <span class="num">{{outdoor_env.temperature}}</span>
+                    </div>
+                    <img :src="'../icons/'+outdoor_env.cond_code+'.png'" />
+                </div>
+                <div class="indoor-ht">
+                    <div>
+                        <i class="wi wi-thermometer"></i>
+                        <span>{{indoor_env.temperature}}℃</span>
+                    </div>
+                    <div>
+                        <i class="wi wi-humidity"></i>
+                        <span>{{indoor_env.humidity}}%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="../scripts/sloarToLunar.js"></script>
+    <script src="../scripts/app.js"></script>
+</body>
+</html>

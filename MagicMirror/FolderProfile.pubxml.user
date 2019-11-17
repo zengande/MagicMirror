@@ -16,13 +16,31 @@
       <publishTime>11/12/2019 23:28:22</publishTime>
     </File>
     <File Include="MagicMirror/html/index.html">
-      <publishTime>11/13/2019 00:06:59</publishTime>
+      <publishTime>11/13/2019 13:22:04</publishTime>
+    </File>
+    <File Include="MagicMirror/monitor.py">
+      <publishTime>11/17/2019 22:15:29</publishTime>
     </File>
     <File Include="MagicMirror/sensors/dht11.py">
       <publishTime>11/12/2019 23:50:34</publishTime>
     </File>
     <File Include="MagicMirror/static/content/app.css">
       <publishTime>11/12/2019 22:48:29</publishTime>
+    </File>
+    <File Include="MagicMirror/static/css/app.css">
+      <publishTime>11/17/2019 22:14:36</publishTime>
+    </File>
+    <File Include="MagicMirror/static/css/weather-icons-wind.css">
+      <publishTime>11/13/2019 13:53:47</publishTime>
+    </File>
+    <File Include="MagicMirror/static/css/weather-icons-wind.min.css">
+      <publishTime>11/13/2019 13:53:47</publishTime>
+    </File>
+    <File Include="MagicMirror/static/css/weather-icons.css">
+      <publishTime>11/13/2019 13:56:00</publishTime>
+    </File>
+    <File Include="MagicMirror/static/css/weather-icons.min.css">
+      <publishTime>11/13/2019 13:53:47</publishTime>
     </File>
     <File Include="MagicMirror/static/fonts/glyphicons-halflings-regular.eot">
       <publishTime>11/12/2019 22:33:48</publishTime>
@@ -36,17 +54,266 @@
     <File Include="MagicMirror/static/fonts/glyphicons-halflings-regular.woff">
       <publishTime>11/12/2019 22:33:48</publishTime>
     </File>
+    <File Include="MagicMirror/static/fonts/ShareTechMono-Regular.ttf">
+      <publishTime>11/13/2019 12:54:32</publishTime>
+    </File>
+    <File Include="MagicMirror/static/fonts/weathericons-regular-webfont.eot">
+      <publishTime>11/13/2019 13:53:26</publishTime>
+    </File>
+    <File Include="MagicMirror/static/fonts/weathericons-regular-webfont.svg">
+      <publishTime>11/13/2019 13:53:26</publishTime>
+    </File>
+    <File Include="MagicMirror/static/fonts/weathericons-regular-webfont.ttf">
+      <publishTime>11/13/2019 13:53:26</publishTime>
+    </File>
+    <File Include="MagicMirror/static/fonts/weathericons-regular-webfont.woff">
+      <publishTime>11/13/2019 13:53:26</publishTime>
+    </File>
+    <File Include="MagicMirror/static/fonts/weathericons-regular-webfont.woff2">
+      <publishTime>11/13/2019 13:53:26</publishTime>
+    </File>
+    <File Include="MagicMirror/static/html/index.html">
+      <publishTime>11/17/2019 22:13:36</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/100.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/100n.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/101.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/102.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/103.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/103n.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/104.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/104n.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/200.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/201.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/202.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/203.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/204.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/205.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/206.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/207.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/208.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/209.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/210.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/211.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/212.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/213.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/300.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/300n.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/301.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/301n.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/302.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/303.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/304.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/305.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/306.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/307.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/309.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/310.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/311.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/312.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/313.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/314.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/315.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/316.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/317.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/318.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/399.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/400.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/401.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/402.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/403.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/404.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/405.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/406.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/406n.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/407.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/407n.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/408.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/409.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/410.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/499.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/500.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/501.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/502.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/503.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/504.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/507.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/508.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/509.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/510.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/511.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/512.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/513.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/514.png">
+      <publishTime>11/17/2019 21:55:28</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/515.png">
+      <publishTime>11/17/2019 21:55:29</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/900.png">
+      <publishTime>11/17/2019 21:55:29</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/901.png">
+      <publishTime>11/17/2019 21:55:29</publishTime>
+    </File>
+    <File Include="MagicMirror/static/icons/999.png">
+      <publishTime>11/17/2019 21:55:27</publishTime>
+    </File>
     <File Include="MagicMirror/static/scripts/app.js">
-      <publishTime>11/12/2019 23:28:22</publishTime>
+      <publishTime>11/17/2019 22:18:45</publishTime>
+    </File>
+    <File Include="MagicMirror/static/scripts/sloarToLunar.js">
+      <publishTime>11/17/2019 19:22:14</publishTime>
     </File>
     <File Include="MagicMirror/views.py">
-      <publishTime>11/12/2019 23:52:15</publishTime>
+      <publishTime>11/17/2019 22:15:57</publishTime>
+    </File>
+    <File Include="MagicMirror/weather.py">
+      <publishTime>11/17/2019 21:59:10</publishTime>
     </File>
     <File Include="MagicMirror/__init__.py">
-      <publishTime>11/12/2019 23:42:45</publishTime>
+      <publishTime>11/13/2019 13:52:42</publishTime>
     </File>
     <File Include="requirements.txt">
-      <publishTime>11/12/2019 22:33:48</publishTime>
+      <publishTime>11/13/2019 12:54:32</publishTime>
     </File>
     <File Include="runserver.py">
       <publishTime>11/12/2019 22:41:03</publishTime>
