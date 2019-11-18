@@ -42,6 +42,14 @@ body {
 .date {
     font-size: 1.6em;
 }
+.holidays{
+    padding: 10px 0px;
+}
+.holidays .holiday {
+    font-size: 1em;
+    display: inline-block;
+    margin-right: 10px;
+}
 
 .hours, .divider, .minutes {
     font-size: 7em;
@@ -53,7 +61,6 @@ body {
 
 .weather {
     font-size: 1.5em;
-    padding-top: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

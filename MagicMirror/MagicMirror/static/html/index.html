@@ -20,6 +20,9 @@
                     <span>{{date}}</span>
                     <span>{{lunarDate}}</span>
                 </div>
+                <div class="holidays" v-if="holidays.length>0">
+                    <span class="holiday" v-for="holiday in holidays">{{holiday}}</span>
+                </div>
             </div>
             <div class="weather">
                 <div class="temp">

@@ -7,13 +7,14 @@ const app = new Vue({
         minutes: "00",
         seconds: "00",
         date: '',
+        holidays: [],
         lunarDate: '',
         indoor_env: {
             temperature: "N/A",
             humidity: "N/A"
         },
         outdoor_env: {
-            cond_code:"999",
+            cond_code: "999",
             temperature: "N/A"
         }
     },
@@ -35,6 +36,8 @@ const app = new Vue({
 updateTime();
 setInterval(updateTime, 1000);
 
+
+
 function updateTime() {
     var now = new Date();
     app.hours = pad(now.getHours(), 2);
@@ -47,6 +50,10 @@ function updateTime() {
     var lunarDate = sloarToLunar(year, month, day);
     app.lunarDate = `${lunarDate.lunarYear}年 ${lunarDate.lunarMonth}月${lunarDate.lunarDay}`;
     app.date = `${pad(month, 2)}月${pad(day, 2)}日 ${weekday[now.getDay()]}`;
+    var jq = getJQ(year, month, day);
+    if (jq !== '') {
+        app.holidays = [jq];
+    }
 }
 
 function pad(n, width, z) {

@@ -1,14 +1,14 @@
 from flask_socketio import Namespace
 from threading import Lock
 from MagicMirror import socketio
-import Adafruit_DHT
+#import Adafruit_DHT
 import random
 
 thread = None
 thread_lock = Lock()
 connections = 0
 
-sensor = Adafruit_DHT.DHT11
+#sensor = Adafruit_DHT.DHT11
 pin = 4
 
 class Monitor(Namespace):
@@ -30,8 +30,8 @@ class Monitor(Namespace):
     def _read_ht_thread(self):
         global connections
         while connections > 0:
-            # (random.randint(0,100), random.randint(-20,50))
-            humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+            humidity, temperature = (random.randint(0,100), random.randint(-20,50))
+            #humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
             socketio.emit('response_ht',
                           {'humidity': humidity, 'temperature': temperature},
                           namespace='/monitor')
